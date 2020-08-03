@@ -1,0 +1,35 @@
+{
+  "name": "remote-connection",
+  "version": "1.0.0",
+  "description": "Aplicação feita em Electron para gerenciar conexões remotas.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassfer/remote-connection.git"
+  },
+  "keywords": [
+    "electron",
+    "node",
+    "javascript",
+    "windows",
+    "mac",
+    "hybrid",
+    "hibrido",
+    "remote-desktop",
+    "remote"
+  ],
+  "author": "Cassio Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cassfer/remote-connection/issues"
+  },
+  "homepage": "https://github.com/cassfer/remote-connection#readme",
+  "dependencies": {
+    "electron": "9.1.2",
+    "jquery": "3.5.1"
+  }
+}

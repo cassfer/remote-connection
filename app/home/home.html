@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Remote</title>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="../../lib/font-awesome/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body class= color-4-hex>
+  <!-- NAV PRINCIPAL-->
+  <nav class="navbar navbar-expand-lg sticky-top  color-6-hex" style="-webkit-app-region: drag">
+    <!-- Botoes de controle da janela-->
+    <img src="../../img/long_logo.png" class="mx-auto d-block logo-speed" alt="SPEED REMOTE LOGO">
+    <div class="btn-group d-flex justify-content btn-window" role="group" aria-label="Basic example">
+      <button type="button" class="btn fa fa-window-minimize"></button>
+      <button type="button" class="btn fa fa-window-maximize"></button>
+      <button type="button" class="btn fa fa-window-close"></button>
+    </div>
+  </nav>
+  <br>
+  <div class="container-main">
+    <br>
+    <div>
+      <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle fa fa-bars" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Nova conexão</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Importar JSON</a>
+            <a class="dropdown-item" href="#">Exportar JSON</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sobre</a>
+            <a class="dropdown-item" href="#">Fechar</a>
+          </div>
+        </div>
+  
+        <div class="input-group col">
+          <div class="input-group-prepend">
+            <div class="input-group-text fa fa-search" id="btnGroupAddon"></div>
+          </div>
+          <input type="text" class="form-control" placeholder="Pesquise a conexão" aria-label="Input group example" aria-describedby="btnGroupAddon">
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive table-container">
+      <table class="table table-bordered table-dark table-hover">
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <tbody>
+            <thead class="menu-table">
+              <tr>
+                <th class="btn-secondary" scope="col">Alias</th>
+                <th class="btn-secondary" scope="col">Grupo</th>
+                <th class="btn-secondary" scope="col">Servidor</th>
+              </tr>
+            </thead>
+            <div class="scroll-container">
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              </tr>
+              <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+              <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+              </tr>
+            </div>
+          </tbody>
+        </div>
+      </table>
+    </div>
+
+  </div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="./js/home.js"></script>
+<script src="../../lib/jquery/js/jquery-3.0.0.slim.min.js"></script>
+<script>window.jQuery = window.$ = require('jquery')</script>
+<script src="../../lib/popper/js/popper.js"></script>
+<script src="../../lib/bootstrap/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
